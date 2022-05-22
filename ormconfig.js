@@ -20,7 +20,7 @@ const dbConfigTest = {
 
 const dbConfigProd = {
 	...baseConfig,
-	typeof: "postgres",
+	type: "postgres",
 	url: process.env.DATABASE_URL,
 	migrationsRun: true,
 	ssl: { rejectUnauthorized: false }
