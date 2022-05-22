@@ -1,0 +1,10 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll": true,
+        "source.organizeImports": false,
+        "editor.insertSpaces": false
+    },
+    "editor.copyWithSyntaxHighlighting": true,
+    "editor.bracketPairColorization.enabled": true
+}
