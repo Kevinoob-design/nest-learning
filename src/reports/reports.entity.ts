@@ -22,13 +22,13 @@ export class Report {
 	@Column("date")
 	year: Date
 
-	@Column("double")
+	@Column("float")
 	lng: number
 
-	@Column("double")
+	@Column("float")
 	lat: number
 
-	@Column("double")
+	@Column("float")
 	mileage: number
 
 	@ManyToMany(() => User, user => user.reports)
